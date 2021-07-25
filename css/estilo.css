@@ -48,6 +48,11 @@ body {
   margin: 0 auto;
 }
 
+.heroi-conteiner {
+  margin: 15px;
+  padding: 10px;
+  border: 12px solid rgb(107, 0, 207);
+}
 /*
 ****FORMATAÇÃO DO MENU ****
 */
