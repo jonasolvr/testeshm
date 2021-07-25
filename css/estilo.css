@@ -1,0 +1,97 @@
+/*limpar formatações padrões*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #645092;
+}
+
+/*
+**** LAYOUT ****
+*/
+
+#area-cabecalho {
+  background-color: #8a7baf;
+  padding: 10px;
+  text-align: center;
+}
+
+#area-logo,
+#area-menu {
+  padding: 10px;
+}
+
+.area-principal {
+  background: #5a438f;
+  width: 920px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.wrapper-input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 8px;
+}
+
+.cadastro-conteiner,
+.filtro-conteiner {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/*
+****FORMATAÇÃO DO MENU ****
+*/
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: rgb(0, 0, 0);
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: rgb(100, 14, 212);
+  background: rgb(202, 162, 255);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagens1 {
+  border: 12px solid;
+  color: rgb(107, 0, 207);
+}
+
+/* 
+**** FORMATAÇÕES GERAIS ****
+*/
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: -20px;
+}
